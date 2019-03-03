@@ -21,19 +21,19 @@ Invalid! Score must be within 0 - 100. '''
 
 
 score = int(input("Enter score: "))
-if score >= 0 or score <= 34:
+if score >= 0 and score <= 34:
     print("U")
-elif score >= 35 or score <= 44:
+elif score >= 35 and score <= 44:
     print("S")
-elif score >= 45 or score <= 49:
+elif score >= 45 and score <= 49:
     print("E")
-elif score >= 50 or score <= 54:
+elif score >= 50 and score <= 54:
     print("D")
-elif score >= 55 or score <= 59:
+elif score >= 55 and score <= 59:
     print("C")
-elif score >= 60 or score <= 69:
+elif score >= 60 and score <= 69:
     print("B")
-elif score >= 70 or score <= 100:
+elif score >= 70 and score <= 100:
     print("A")
 else:
     print("Invalid! Score must be within 0 - 100.")
